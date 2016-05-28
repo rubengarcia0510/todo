@@ -1,0 +1,14 @@
+<template name="taskList">
+  <div class="posts">
+    <div class="post">
+      <div class="col-md-2">LISTA</div>
+      <div class="col-md-2">TAREA</div>
+      <div class="col-md-2">ESTADO</div>
+      <div class="col-md-2">COMENTARIOS</div>
+      <div class="col-md-2">CHECK/DELETE</div>
+    </div>
+    {{#each tasks}}
+      {{> taskItem}}
+    {{/each}}
+  </div>
+</template>

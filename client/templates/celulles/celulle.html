@@ -1,0 +1,24 @@
+<template name="celulle">
+
+  <div class="jumbotron">
+    <div class="posts">
+      <h1>{{currentUrl}}</h1>
+    <div class="post">
+      <div class="col-md-2">PROJECTO</div>
+      <div class="col-md-2">BU</div>
+      <div class="col-md-2">CPI</div>
+      <div class="col-md-2">MEPP</div>
+      <div class="col-md-2">MEP</div>
+      <div class="col-md-2">NE</div>
+    </div>
+    </div>
+    <div class="posts">
+
+      {{#each items}}
+        {{> item}}
+      {{/each}}
+
+
+    </div>
+  </div>
+</template>
